@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10253c">
+  <title>Naci Hoca ile TYT Biyoloji | Hücre ve Organelleri</title>
+  <meta name="description" content="Hücre ve organellerini keşfet, 30 özgün TYT sorusuyla kendini dene ve açıklamalı çözümleri incele.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="Naci Hoca ile TYT Biyoloji | Hücre ve Organelleri">
+  <meta property="og:description" content="Öğren – Çöz – Değerlendir. Üç düzeyde 30 özgün soru ve açıklamalı çözümler.">
+  <meta property="og:image" content="./assets/paylasim.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Naci Hoca ile TYT Biyoloji – Hücre ve Organelleri">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="./assets/hucre.svg">
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./questions.js"></script>
+  <script defer src="./content.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#icerik">İçeriğe geç</a>
+  <header class="top"><div class="wrap top-inner">
+    <button id="brand" class="brand" type="button" aria-label="Naci Hoca ile TYT Biyoloji ana sayfası"><img src="./assets/hucre.svg" alt="" width="36" height="36"><span>Naci Hoca<small>TYT BİYOLOJİ</small></span></button>
+    <div class="tools"><button id="sound" type="button" class="quiet" aria-pressed="false">Ses: Kapalı</button><button id="share" type="button" class="quiet">Testi Paylaş</button></div>
+  </div></header>
+  <main id="icerik" class="wrap" tabindex="-1">
+    <section id="home">
+      <div class="hero">
+        <div class="hero-copy"><p class="eyebrow">NACİ HOCA İLE TYT BİYOLOJİ</p><h1>Hücre ve<br>Organelleri</h1><p class="motto">Öğren – Çöz – Değerlendir</p><p>Hücrenin yapılarını keşfet, üç düzeyde kendini dene ve her cevabın nedenini öğren.</p><button class="button mint" data-jump="testler">Testleri Gör <span aria-hidden="true">↓</span></button></div>
+        <div class="hero-art"><img src="./assets/hucre.svg" width="440" height="330" alt="Şematik hayvan hücresi: çekirdek, mitokondri ve diğer hücre içi yapılar"><span aria-hidden="true">HAYVAN HÜCRESİ · ŞEMATİK</span></div>
+      </div>
+      <nav class="nav-cards" aria-label="Konu bölümleri">
+        <button data-jump="kesfet"><span>01 / ÖĞREN</span><strong>Konuyu Keşfet</strong><small>Hücre yapıları ve organel kartları</small></button>
+        <button data-jump="testler"><span>02 / ÇÖZ</span><strong>Kendini Dene</strong><small>3 test · 30 özgün soru</small></button>
+        <button data-jump="ozet"><span>03 / PEKİŞTİR</span><strong>Konu Özeti</strong><small>Zar sayısı, dağılım ve görevler</small></button>
+      </nav>
+      <section id="testler" class="section" tabindex="-1"><p class="eyebrow">02 / UYGULAMA</p><h2>Kendini Dene</h2><p class="lead">Düzeyini seç. Cevaplarını sınavı bitirene kadar değiştirebilirsin.</p><div id="test-list" class="grid three"></div></section>
+      <section id="kesfet" class="section" tabindex="-1"><p class="eyebrow">01 / KONU ANLATIMI</p><h2>Konuyu Keşfet</h2><p class="lead">Şemalar yapıların ayırt edici özelliklerini gösterir; ölçekli değildir.</p><div id="learn-list" class="grid three"></div><h3 class="subheading">Prokaryot ve ökaryot hücre</h3><div class="grid two"><article class="card"><h4>Prokaryot</h4><p>Bakteri ve arkelerde DNA, çekirdek zarıyla çevrili değildir. Zarlı organeller bulunmaz; ribozom vardır.</p></article><article class="card"><h4>Ökaryot</h4><p>Bitki, hayvan, mantar ve protistlerde tipik hücrede zarla çevrili çekirdek ve zarlı organeller vardır. Bazı özelleşmiş hücreler bunları yitirebilir.</p></article></div><p class="note"><strong>Ortak yapılar:</strong> Tipik prokaryot ve ökaryot hücrelerde hücre zarı, sitoplazma, DNA ve ribozom bulunur.</p></section>
+      <section id="ozet" class="section" tabindex="-1"><p class="eyebrow">03 / HIZLI TEKRAR</p><h2>Konu Özeti</h2><p class="lead">Tipik hücreleri karşılaştır. Bir organelin bulunması hücre tipine ve farklılaşmaya bağlı olabilir.</p><div id="summary-list" class="summary"></div><p class="note">Çekirdek, çift zarlı bir hücre yapısıdır. Hücre zarı ve sitoplazma organel değildir. Kloroplast, fotosentez yapan hücrelerde görülür; bitkilerin her hücresinde bulunmaz. Olgun memeli alyuvarlarında çekirdek, ribozom ve mitokondri bulunmaz.</p></section>
+    </section>
+    <section id="exam" class="stage" hidden>
+      <div class="exam-top"><div><p class="eyebrow" id="exam-label"></p><h1 id="exam-heading" tabindex="-1">Sınav</h1></div><div class="timer"><span>GEÇEN SÜRE</span><time id="timer" role="timer">00:00</time></div></div>
+      <div class="panel"><div class="progress-label"><span id="number"></span><span id="answered"></span></div><progress id="progress" aria-label="Cevaplanan soru sayısı"></progress><fieldset><legend id="question" tabindex="-1"></legend><div id="options"></div></fieldset><div class="actions"><button class="button secondary" id="prev">← Önceki Soru</button><button class="button secondary" id="blank">Soruyu Boş Bırak</button><button class="button" id="next">Sonraki Soru →</button></div></div>
+      <div class="exam-bottom"><div id="jump-list" class="jump-list" aria-label="Sorulara git"></div><button class="button secondary" id="finish">Sınavı Bitir</button></div>
+    </section>
+    <section id="result" class="stage" hidden><p class="eyebrow" id="result-label"></p><h1 id="result-heading" tabindex="-1">Test Sonucun</h1><p class="badge" id="badge" hidden>★ Başarı Rozeti · Harika ilerleme!</p><div id="stats" class="stats"></div><div class="actions result-actions"><button class="button" id="retry">Tekrar Çöz</button><button class="button secondary" id="go-home">Ana Sayfaya Dön</button></div><section class="section review"><h2>Açıklamalı Çözümler</h2><button class="button secondary" id="wrong" aria-pressed="false">Yanlışlarımı İncele</button><div id="solutions"></div></section></section>
+    <noscript>Bu test uygulamasını kullanmak için tarayıcınızda JavaScript’i etkinleştirin.</noscript>
+  </main>
+  <footer><div class="wrap footer-inner"><span>Tasarım: Naci Karhan</span><span>TYT Biyoloji · Hücre ve Organelleri</span></div></footer>
+  <dialog id="confirm"><form method="dialog"><h2 id="dialog-heading">Sınavı bitir?</h2><p id="dialog-text"></p><div class="actions"><button class="button secondary" value="cancel" autofocus>Sınava Dön</button><button class="button" value="ok" id="dialog-ok">Bitir ve Sonucu Gör</button></div></form></dialog>
+  <dialog id="share-dialog"><form method="dialog"><h2>Testi Paylaş</h2><p>Bağlantıyı kopyalayıp istediğin uygulamada paylaşabilirsin.</p><label for="share-link">Test bağlantısı</label><input id="share-link" readonly><div class="actions"><button class="button secondary" value="close">Kapat</button><button class="button" id="copy" type="button">Bağlantıyı Kopyala</button></div></form></dialog>
+  <p class="toast" id="status" role="status" hidden></p>
+</body>
+</html>
