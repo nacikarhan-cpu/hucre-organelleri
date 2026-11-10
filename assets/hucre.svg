@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 330" role="img" aria-labelledby="title desc">
+ <title id="title">Hayvan hücresi</title><desc id="desc">Hücre zarı, çekirdek, mitokondri ve Golgi aygıtı.</desc>
+ <defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1" fill="#a5efc2" opacity=".25"/></pattern></defs>
+ <rect width="440" height="330" fill="url(#dots)"/>
+ <path d="M67 142C79 66 164 50 218 62c63 14 129 3 153 66 28 76-27 145-112 143-67-2-99 21-151-14-36-25-49-67-41-115Z" fill="#215462" stroke="#a5efc2" stroke-width="4"/>
+ <path d="M75 143C87 74 161 57 218 70c62 14 123 3 145 61 26 70-26 133-104 132-66-2-96 21-146-12-34-23-45-64-38-108Z" fill="none" stroke="#79cdb3" stroke-width="1.3"/>
+ <circle cx="183" cy="155" r="48" fill="#577fa6" stroke="#b9e1ef" stroke-width="3"/><circle cx="183" cy="155" r="42" fill="none" stroke="#b9e1ef" stroke-width="1.2"/><circle cx="184" cy="150" r="14" fill="#a4d6e6"/>
+ <g fill="none" stroke-linecap="round"><path d="M125 118q21-29 53-28m-61 42q6-17 20-23m-19 70q13 25 39 32m-26-15q12 14 35 21" stroke="#80dac1" stroke-width="4"/><path d="M267 109q28 19 52 1m-54 12q31 20 58-1m-55 14q27 18 49 0m-43 13q20 13 37 0" stroke="#abdcb0" stroke-width="5"/></g>
+ <g transform="translate(271 205) rotate(-22)"><ellipse rx="37" ry="20" fill="#efaa83" stroke="#ffe1b3" stroke-width="2.5"/><ellipse rx="31" ry="15" fill="none" stroke="#9a5260"/><path d="M-21-11q-4 24 4 22t4-25m9-1q-3 26 4 26t5-26m9 2q-1 25 6 21t4-17" fill="none" stroke="#9a5260" stroke-width="2"/></g>
+ <g fill="#c2efdb"><circle cx="235" cy="99" r="3"/><circle cx="242" cy="181" r="3"/><circle cx="221" cy="219" r="3"/><circle cx="151" cy="232" r="3"/><circle cx="311" cy="169" r="3"/><circle cx="324" cy="142" r="3"/><circle cx="113" cy="165" r="3"/></g><circle cx="115" cy="217" r="11" fill="#d4e3a1"/><circle cx="330" cy="190" r="9" fill="#aad5e0"/>
+ <g stroke="#a5efc2" stroke-width="1.1" fill="none"><path d="M92 96 67 48H35M150 149l-39-10H13M303 118l35-41h76M298 213l32 45h79"/></g>
+ <g fill="#e7f7f2" font-family="system-ui,sans-serif" font-size="12" font-weight="700"><text x="35" y="41">Hücre zarı</text><text x="13" y="132">Çekirdek</text><text x="328" y="69">Golgi aygıtı</text><text x="329" y="274">Mitokondri</text></g>
+</svg>
+
